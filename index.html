@@ -278,7 +278,6 @@
         </div>
       </div>
   
-      <!-- Contenedor de miniaturas -->
       <div class="thumbnail-container">
         <label for="thumb1" class="thumbnail"><img src="Imagenes/apt 1 .png" alt="Miniatura 1"></label>
         <label for="thumb2" class="thumbnail"><img src="Imagenes/image (1).png" alt="Miniatura 2"></label>
@@ -288,12 +287,10 @@
     </div>
   
     <style>
-      /* Ocultar todas las imágenes por defecto */
       .main-image .image {
         display: none;
       }
   
-      /* Mostrar la imagen correspondiente al radio seleccionado */
       #thumb1:checked ~ .images .image:nth-child(1),
       #thumb2:checked ~ .images .image:nth-child(2),
       #thumb3:checked ~ .images .image:nth-child(3),
@@ -324,7 +321,6 @@
         display: none;
       }
   
-      /* Estilo para la miniatura seleccionada */
       input[type="radio"]:checked + .thumbnail img {
         border-color: #000;
       }
