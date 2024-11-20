@@ -22,7 +22,14 @@ header {
     
 }
 
-
+nav {
+    background-image: url('Imagenes/head.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px;
+    position: relative; 
+}
 
 nav ul a {
     color: #5394b8;
